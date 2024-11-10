@@ -1,0 +1,57 @@
+@media (min-width: 1024px) {
+    .logo {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 849px) {
+    .logo {
+        font-size: 11px;
+		width: 90%;
+    }
+	
+	.main {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+}
+
+@media (max-width: 640px) {
+    .logo {
+        font-size: 9px;
+		border: none !important;
+		width: 100% !important;
+		height: auto !important;
+    }
+	
+	.main {
+		margin: 0;
+	}
+	
+	.icons {
+		text-align: center;
+	}
+}
+	
+		.logo {
+				color: rgb(221,165,39) !important;
+				font-weight: bold;
+				line-height: 50px;
+				text-transform: uppercase;
+				border: 2px solid  rgb(221,165,39);
+				width: 400px;
+				height: 400px;
+			}
+			
+			.icons:hover {
+				cursor: pointer;
+			}
+		.construction {
+			color: rgb(221,165,39);
+			font-weight: bold;
+			z-index: 5;
+			position: absolute;
+			text-align: center;
+			bottom: 2%;
+			width: 100%;
+		}
